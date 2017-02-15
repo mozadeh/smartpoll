@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popmenulinearlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#092d4c"
+    android:paddingBottom="1dp"
+    android:paddingRight="1dp"
+    android:paddingLeft="1dp"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:id="@+id/menuItemFrame"
+	    android:orientation="horizontal"
+	    android:background="#555555"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/menuItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="0dp"
+        android:layout_gravity="center"    
+        android:layout_weight="0"
+        android:src="@drawable/dropdownb"
+         />
+    
+    <TextView 
+        android:id="@+id/menuItemText"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"        
+        android:paddingLeft="0dp"
+        android:paddingRight="3dp"
+        android:text="Large"
+        android:textSize="17sp"
+        android:textColor="#ffffff" 
+        />
+    
+    
+    
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="#455388" >
+
+            <Button
+                android:id="@+id/createButton"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/topmenugradient"
+                android:gravity="center"
+                android:padding="1dp"
+                android:paddingRight="3dp"
+                
+                android:text="Create"
+                android:textColor="#ffffff"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/pollButton"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/topmenugradient"
+                android:gravity="center"
+                android:padding="1dp"
+                android:paddingRight="3dp"
+                
+                android:text="Polls"
+                android:textColor="#ffffff"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/profileButton"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/topmenugradient"
+                android:gravity="center"
+                android:padding="1dp"
+                android:paddingRight="3dp"
+                
+                android:text="Profile"
+                android:textColor="#ffffff"
+                android:textSize="19sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/leaderboardLL"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:background="#555555"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/leaderboardbutton"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:background="@drawable/leaderboardgradient"
+                android:gravity="center"
+                android:paddingLeft="0dp"
+                android:paddingRight="3dp"
+                android:shadowColor="@android:color/black"
+                android:shadowRadius="6.0"
+                android:text="Leader Board"
+                android:textColor="#ffffff"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:id="@+id/leaderboardframe"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/insightfulusers"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/insightfuluserstv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0"
+                        android:background="#9e9e9e"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="3dp"
+                        android:paddingTop="5dp"
+                        android:text="most insights"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <ListView
+                        android:id="@+id/insightfuluserslist"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/blackline"
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0"
+                    android:background="#555555"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bestpolls"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/bestpollstv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0"
+                        android:background="#9e9e9e"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="3dp"
+                        android:paddingTop="5dp"
+                        android:text="most interesting polls"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <ListView
+                        android:id="@+id/bestpollslist"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:clickable="false" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

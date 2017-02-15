@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d4d4d4"
+    android:orientation="vertical"
+    >
+    
+    <ImageView
+        android:id="@+id/transparentshadow"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow1" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/profilepicture"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginRight="10dp"
+                android:paddingBottom="5dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/profilename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="5dp"
+                    android:text="User Name"
+                    android:textSize="20sp" />
+                
+                <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical" >
+
+                
+                
+                <Button
+                    android:id="@+id/backButton"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/newpollbottom_bg_selector"
+                    android:text="Back"
+                    android:textColor="@drawable/newpollbottom_text_selector"
+                    android:layout_weight="1"
+                    android:textSize="18sp" 
+                    android:layout_marginRight="10dp"/>
+                
+                <Button
+                    android:id="@+id/followButton"
+                    android:layout_width="55dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/newpollbottom_bg_selector"
+                    android:text="Follow"
+                    android:textColor="@drawable/newpollbottom_text_selector"
+                    android:textSize="18sp" 
+                    android:layout_weight="1"
+                    />
+                </LinearLayout>
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:id="@+id/followers_following"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="5dp"
+                    android:text="Followers (20) / Following (15)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/votes_polls"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Votes (10) / Polls (6)"
+                    android:textSize="12sp" />
+                
+                
+                 
+                 
+                
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+      <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        >
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pager_title_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2acc81"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:textColor="#fff" />
+    </android.support.v4.view.ViewPager>
+    
+    
+    <!--<com.astuetz.viewpager.extensions.PagerSlidingTabStrip
+        android:id="@+id/pager_title_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2acc81"
+            android:paddingBottom="10dp"
+            android:paddingTop="6dp"
+            android:textSize="14sp"
+            android:textColor="#fff" />
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+    
+    
+    
+    
+    
+    
+    
+    
+
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#f8f8f8"
+        android:fadingEdge="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/newPollQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:paddingBottom="5dp"
+                android:text="1) What&apos;s the question?"
+                android:textSize="19dp" />
+
+            <EditText
+                android:id="@+id/editQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_modified_states"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences" >
+
+                <!-- <requestFocus android:layout_width="wrap_content" /> -->
+            </EditText>
+
+            <TextView
+                android:id="@+id/newPollSource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="2) Where&apos;s the picture?"
+                android:textSize="19dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="114dp"
+                    android:orientation="vertical"
+                    android:padding="2dp" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/sourceCamera"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:background="#dfdfdf"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="Camera"
+                            android:textColor="@drawable/imagesourcebutton_text_selector"
+                            android:textSize="15dp" />
+
+                        <ImageView
+                            android:id="@+id/spaceimage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/sourceb" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/spaceimage1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/sourceGallery"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:background="#dfdfdf"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="Gallery"
+                            android:textColor="@drawable/imagesourcebutton_text_selector"
+                            android:textSize="15dp" />
+
+                        <ImageView
+                            android:id="@+id/spaceimage2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/sourceb" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/spaceimage1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/sourceInternet"
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:background="#dfdfdf"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="Internet Search"
+                            android:textColor="@drawable/imagesourcebutton_text_selector"
+                            android:textSize="15dp" />
+
+                        <ImageView
+                            android:id="@+id/spaceimage2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/sourceb" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/spaceinnewpoll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imagePreview"
+                    android:layout_width="114dp"
+                    android:layout_height="114dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/no_image_available" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textThreeOptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="3) What are the options?"
+                android:textSize="19dp" />
+
+            <EditText
+                android:id="@+id/editOption1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_modified_states"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences"
+                android:text="Yes" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editOption2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_modified_states"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences" 
+                android:text="No">
+            </EditText>
+
+            <EditText
+                android:id="@+id/editOption3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_modified_states"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences"
+                android:text="Maybe" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editOption4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_modified_states"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences"
+                android:visibility="gone" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editOption5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_modified_states"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences"
+                android:visibility="gone" >
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp" >
+
+                <ImageView
+                    android:id="@+id/imageViewMoreOptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="2dp"
+                    android:src="@drawable/more" />
+
+                <TextView
+                    android:id="@+id/textViewMoreOptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="More Options"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@drawable/imagesourcebutton_text_selector" />
+
+                <ImageView
+                    android:id="@+id/spaceimageforoptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageViewLessOptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="2dp"
+                    android:src="@drawable/fewer" />
+
+                <TextView
+                    android:id="@+id/textViewLessOptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Fewer Options"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@drawable/imagesourcebutton_text_selector" />
+            </LinearLayout>
+
+            <!-- <TextView
+                android:id="@+id/newPollCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="4) What category does this fall under?"
+                android:textSize="19dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /> -->
+
+            
+ <LinearLayout
+                    android:id="@+id/linearLayoutfornewPollsharequestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/newPollShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="4) How do you want to share on Facebook?"
+                    android:textSize="19dp" />
+                </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearLayoutforPollshareframe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutforPollshare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <RadioGroup
+                        android:id="@+id/shareRadioGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/radioShareWithSelectFriends"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radio"
+                            android:checked="true"
+                            android:paddingLeft="20dp"
+                            android:paddingBottom="5dp"
+                            android:text="With select Facebook friends"
+                            android:textColor="@drawable/imagesourcebutton_text_selector" />
+
+                        <RadioButton
+                            android:id="@+id/radioShareOnFacebookTimeline"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radio"
+                            android:paddingLeft="20dp"
+                            android:paddingBottom="5dp"
+                            android:text="On my Facebook timeline"
+                            android:textColor="@drawable/imagesourcebutton_text_selector" />
+
+                        <RadioButton
+                            android:id="@+id/radioDoNotShare"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radio"
+                            android:paddingLeft="20dp"
+                            android:paddingBottom="5dp"
+                            android:text="Don&apos;t share on Facebook"
+                            android:textColor="@drawable/imagesourcebutton_text_selector" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/helpbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="0"
+                    android:src="@drawable/help" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutforprivatesharing"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:background="@android:color/darker_gray"
+                android:padding="1dp"
+                android:layout_marginTop="5dp">
+
+                <CheckBox
+                    android:id="@+id/checkBoxMakePrivate"
+                    android:button="@drawable/customdrawablecheckbox"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:text="Don&apos;t share publicly on Smart Poll"
+                    android:textColor="@android:color/black" >
+                </CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp" >
+
+                <Button
+                    android:id="@+id/buttonBack"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/newpollbottom_bg_selector"
+                    android:text="Back"
+                    android:textColor="@drawable/newpollbottom_text_selector"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/loginButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/buttonCreate"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/newpollbottom_bg_selector"
+                    android:text="Create"
+                    android:textColor="@drawable/newpollbottom_text_selector"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/transparentshadow"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow1" />
+
+</RelativeLayout>

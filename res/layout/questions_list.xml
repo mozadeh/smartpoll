@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/questionlistbackground"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:background="#f8f8f8"
+        android:orientation="vertical" >
+        
+        
+
+        <LinearLayout
+            android:id="@+id/emptyList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/textViewStartPoll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:padding="5dp"
+                android:text="Start the First Poll"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#797979"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:id="@+id/imageViewRefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_menu_refresh" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/empty"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:background="#f8f8f8" />
+
+        <!-- <TextView
+            android:id="@+id/loadingPolls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:text="loading polls"
+            android:textColor="#797979"
+            android:textSize="16sp" /> -->
+
+        <eu.erikw.PullToRefreshListView
+            android:id="@+id/pull_to_refresh_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:divider="#f8f8f8"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none" />
+    </LinearLayout>
+
+    
+
+    <TextView
+        android:id="@+id/pollloader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#353535"
+        android:gravity="center"
+        android:text="loading polls"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

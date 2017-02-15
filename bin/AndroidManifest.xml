@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartiky.smartpoll"
+    android:versionCode="18"
+    android:versionName="1.5.1" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>  
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.smartiky.smartpoll.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.smartiky.smartpoll.permission.C2D_MESSAGE" />
+
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.CAMERA"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SmartPollActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".QuestionsActivity"
+            android:label="Questions Activity" >
+        </activity>
+        <activity
+            android:name=".PollsActivity"
+            android:label="Polls Activity" >
+        </activity>
+        <activity
+            android:name=".TabGroupActivity"
+            android:label="Tab Group Activity" >
+        </activity>
+        <activity
+            android:name=".NewPollActivity"
+            android:label="New Poll Activity" >
+        </activity>
+        <activity
+            android:name=".InternetSearchActivity"
+            android:label="Internet Search Activity" >
+        </activity>
+        <activity
+            android:name=".PollResultsActivity"
+            android:label="Poll Results Activity" >
+        </activity>
+       <activity
+            android:name=".ProfileActivity"
+            android:label="Profile Activity" >
+        </activity>
+        <activity
+            android:name=".PollAnalyticsActivity"
+            android:label="Poll Analytics Activity" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="User Profile Activity" >
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="Facebook Login Activity" >
+        </activity>
+        
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <receiver
+            android:name=".GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.smartiky.smartpoll" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".MyIntentService" />
+    </application>
+
+</manifest>

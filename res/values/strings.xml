@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SmartPollActivity!</string>
+    <string name="app_name">Smart Poll</string>
+    <string name="refresh_polls">&quot;Refresh Polls&quot;</string>
+    <string name="create_new_poll">New Poll</string>
+    <string name="menu_preferences">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="about_text1">&quot;&quot;</string>
+    <string name="about_text2_authors">&quot;Visit our website for more information&quot;</string>
+    <string name="about_text3_website">&quot;Smartiky.com&quot;</string>
+    <string name="about_text4_source">&quot;Dont forget to rate our app and give us your feedback :) &quot;</string>
+    
+    <string name="about_version">&quot;Version BETA 0.1.0.0 - 2012-06-05&quot;</string>
+    <string name="menu_my_polls">My Polls</string>
+    <string name="app_id">107357226080242</string>
+    
+
+</resources>

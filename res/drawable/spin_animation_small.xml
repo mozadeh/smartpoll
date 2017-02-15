@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list   android:id="@+id/my_animation" android:oneshot="false" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <item android:drawable="@drawable/b0001" android:duration="70" />
+  <item android:drawable="@drawable/b0002" android:duration="70" />
+  <item android:drawable="@drawable/b0003" android:duration="70" />
+  <item android:drawable="@drawable/b0004" android:duration="70" />
+  <item android:drawable="@drawable/b0005" android:duration="70" />
+  <item android:drawable="@drawable/b0006" android:duration="70" />
+  <item android:drawable="@drawable/b0007" android:duration="70" />
+  <item android:drawable="@drawable/b0008" android:duration="70" />
+  <item android:drawable="@drawable/b0009" android:duration="70" />
+  <item android:drawable="@drawable/b0010" android:duration="70" />
+  <item android:drawable="@drawable/b0011" android:duration="70" />
+  <item android:drawable="@drawable/b0012" android:duration="70" />
+  <item android:drawable="@drawable/b0013" android:duration="70" />
+  <item android:drawable="@drawable/b0014" android:duration="70" />
+  <item android:drawable="@drawable/b0015" android:duration="70" />
+  <item android:drawable="@drawable/b0016" android:duration="70" />
+  <item android:drawable="@drawable/b0017" android:duration="70" />
+  <item android:drawable="@drawable/b0018" android:duration="70" />
+  <item android:drawable="@drawable/b0019" android:duration="70" />
+  <item android:drawable="@drawable/b0020" android:duration="70" />
+  <item android:drawable="@drawable/b0021" android:duration="70" />
+  <item android:drawable="@drawable/b0022" android:duration="70" />
+  <item android:drawable="@drawable/b0023" android:duration="70" />
+  <item android:drawable="@drawable/b0024" android:duration="70" />
+  <item android:drawable="@drawable/b0025" android:duration="70" />
+  <item android:drawable="@drawable/b0026" android:duration="70" />
+  <item android:drawable="@drawable/b0027" android:duration="70" />
+  <item android:drawable="@drawable/b0028" android:duration="70" />
+  <item android:drawable="@drawable/b0029" android:duration="70" />
+  <item android:drawable="@drawable/b0030" android:duration="70" />
+  <item android:drawable="@drawable/b0031" android:duration="70" />
+  <item android:drawable="@drawable/b0032" android:duration="70" />
+  <item android:drawable="@drawable/b0033" android:duration="70" />
+  <item android:drawable="@drawable/b0034" android:duration="70" />
+  <item android:drawable="@drawable/b0035" android:duration="70" />
+  <item android:drawable="@drawable/b0036" android:duration="70" />
+  <item android:drawable="@drawable/b0037" android:duration="70" />
+  <item android:drawable="@drawable/b0038" android:duration="70" />
+  <item android:drawable="@drawable/b0039" android:duration="70" />
+  <item android:drawable="@drawable/b0040" android:duration="70" />
+  <item android:drawable="@drawable/b0041" android:duration="70" />
+  <item android:drawable="@drawable/b0042" android:duration="70" />
+  <item android:drawable="@drawable/b0043" android:duration="70" />
+  <item android:drawable="@drawable/b0044" android:duration="70" />
+  <item android:drawable="@drawable/b0045" android:duration="70" />
+  <item android:drawable="@drawable/b0046" android:duration="70" />
+  <item android:drawable="@drawable/b0047" android:duration="70" />
+  <item android:drawable="@drawable/b0048" android:duration="70" />
+  <item android:drawable="@drawable/b0049" android:duration="70" />
+  <item android:drawable="@drawable/b0050" android:duration="70" />
+  <item android:drawable="@drawable/b0051" android:duration="70" />
+  <item android:drawable="@drawable/b0052" android:duration="70" />
+  <item android:drawable="@drawable/b0053" android:duration="70" />
+  <item android:drawable="@drawable/b0054" android:duration="70" />
+  <item android:drawable="@drawable/b0055" android:duration="70" />
+  <item android:drawable="@drawable/b0056" android:duration="70" />
+  <item android:drawable="@drawable/b0057" android:duration="70" />
+  <item android:drawable="@drawable/b0058" android:duration="70" />
+  <item android:drawable="@drawable/b0059" android:duration="70" />
+  <item android:drawable="@drawable/b0060" android:duration="70" />
+  <item android:drawable="@drawable/b0061" android:duration="70" />
+  <item android:drawable="@drawable/b0062" android:duration="70" />
+  <item android:drawable="@drawable/b0063" android:duration="70" />
+  <item android:drawable="@drawable/b0064" android:duration="70" />
+  
+  
+  
+
+  
+     
+</animation-list>
+
+

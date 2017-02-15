@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:padding="5dip">
+
+		
+		<TextView
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="How do I get more votes for my poll?" android:autoLink="web"
+			android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#82a5f7" 
+			android:textColorLink="#82a5f7"/>
+	
+		<TextView
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="Make sure you choose a nice picture for your poll and share it on Facebook\n" android:autoLink="web"
+			android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffff" />
+		
+		
+		<TextView
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="Can I delete polls that I create?" android:autoLink="web"
+			android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#82a5f7" 
+			android:textColorLink="#82a5f7"/>
+	
+		<TextView
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="Yes, you can delete polls you create\n" android:autoLink="web"
+			android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffff" />
+		
+		<TextView
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="Where can I see the polls I created?" android:autoLink="web"
+			android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#82a5f7" 
+			android:textColorLink="#82a5f7"/>
+	
+		<TextView
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="Select My Polls after pressing the blue button on the top right of your screen to see the polls your created\n" android:autoLink="web"
+			android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffff" />
+		
+	
+		
+	</LinearLayout>
+</ScrollView>

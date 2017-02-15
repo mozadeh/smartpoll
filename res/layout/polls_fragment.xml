@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/transparentshadow"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow1" />
+    
+    <LinearLayout
+        android:id="@+id/questionlistbackground"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/emptyList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/textViewStartPoll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:padding="5dp"
+                android:text="Start the First Poll"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#797979"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageViewRefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_menu_refresh" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@android:id/empty"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:background="#f8f8f8" />
+
+        <com.costum.android.widget.PullAndLoadListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:divider="#f8f8f8"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/transparentshadow"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow1" />
+
+    <TextView
+        android:id="@+id/pollloader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#353535"
+        android:gravity="center"
+        android:text="loading polls"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="gone" />
+    
+</RelativeLayout>

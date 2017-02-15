@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f8f8f8"
+    android:fadingEdge="none" >
+
+    <LinearLayout
+        android:id="@+id/questionFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f8f8"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#474747"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="5dp"
+            android:paddingTop="0dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/profilePic"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0"
+                    android:background="@android:color/darker_gray"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profilepic" />
+
+                 <TextView
+                    android:id="@+id/postedBy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="#767676"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Mohammad Ghasemzadeh"
+                    android:textColor="@drawable/newpollbottom_text_selector"
+                    android:textSize="19sp"
+                    android:maxWidth="150dp" />
+
+                <ImageView
+                    android:id="@+id/pixels"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0"
+                    android:src="@drawable/pixelsb" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/spacer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center_vertical"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/numberofShares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0"
+                    android:text="0"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/shareFacebook"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="0"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/facebook" />
+
+                <TextView
+                    android:id="@+id/numberofFavorites"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0"
+                    android:text="4"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/favoriteImage"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="0"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/love" />
+
+                <TextView
+                    android:id="@+id/numberofComments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0"
+                    android:text="14"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/commentImage"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="0"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/comment" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" 
+            android:paddingBottom="5dp" >
+
+            <Button
+                android:id="@+id/buttonfavorite"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/favoritebutton"
+                android:drawableLeft="@drawable/love"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Mark favorite"
+                android:textColor="@drawable/newpollbottom_text_selector"
+                android:textSize="16sp" 
+                android:drawablePadding="5dp"/>
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonshareonfb"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:drawableLeft="@drawable/facebook"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/favoritebutton"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Share on facebook"
+                android:textColor="@drawable/newpollbottom_text_selector"
+                android:textSize="16sp" 
+                android:drawablePadding="5dp"/>
+        </LinearLayout>
+        
+        <Button
+                android:id="@+id/polldetails"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:background="@drawable/favoritebutton"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Advanced Analytics"
+                android:textColor="@drawable/newpollbottom_text_selector"
+                android:textSize="16sp" 
+                />
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20px"
+            android:layout_weight="0"
+            android:background="@android:color/darker_gray"
+            android:padding="1dp" >
+
+            <ImageView
+                android:id="@+id/imageViewPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:scaleType="centerCrop"
+                android:src="@drawable/no_image_availableb" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/questionDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Question Descripton is going to be here and it can be quite big!?"
+            android:textColor="#474747"
+            android:textSize="19sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20px"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <RadioGroup
+                    android:id="@+id/radioGroupAnswers"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <com.smartiky.smartpoll.widgets.ChoiceButton
+                        android:id="@+id/answerButton1"
+                        android:layout_width="fill_parent"
+                        android:background="@drawable/buttongradient"
+                        android:checked="true"
+                        android:height="38dp"
+                        android:text="Hossein"
+                        android:textSize="18dp" />
+
+                    <com.smartiky.smartpoll.widgets.ChoiceButton
+                        android:id="@+id/answerButton2"
+                        android:layout_width="fill_parent"
+                        android:background="@drawable/buttongradient"
+                        android:height="38dp"
+                        android:text="Ahmad"
+                        android:textSize="18dp" />
+
+                    <com.smartiky.smartpoll.widgets.ChoiceButton
+                        android:id="@+id/answerButton3"
+                        android:layout_width="fill_parent"
+                        android:background="@drawable/buttongradient"
+                        android:height="38dp"
+                        android:text="Hossein G"
+                        android:textSize="18dp" />
+
+                    <com.smartiky.smartpoll.widgets.ChoiceButton
+                        android:id="@+id/answerButton4"
+                        android:layout_width="fill_parent"
+                        android:background="@drawable/buttongradient"
+                        android:height="38dp"
+                        android:text="Hossein G"
+                        android:textSize="18dp" />
+
+                    <com.smartiky.smartpoll.widgets.ChoiceButton
+                        android:id="@+id/answerButton5"
+                        android:layout_width="fill_parent"
+                        android:background="@drawable/buttongradient"
+                        android:height="38dp"
+                        android:text="Hossein G"
+                        android:textSize="18dp" />
+                </RadioGroup>
+
+                <ImageView
+                    android:id="@+id/imageViewShadow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="@drawable/shadow1" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageViewRightArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:src="@drawable/ic_launcher"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/newpollbottom_bg_selector"
+                android:text="Back"
+                android:textColor="@drawable/newpollbottom_text_selector"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/newpollbottom_bg_selector"
+                android:text="Delete"
+                android:textColor="@drawable/newpollbottom_text_selector"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/commentDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Comments"
+                android:drawableLeft="@drawable/comment"
+                android:textColor="#474747"
+                android:drawablePadding="5dp"
+                android:textSize="19sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp" >
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" >
+
+                    <requestFocus />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editTextComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_modified_states"
+                    android:ems="10"
+                    android:inputType="text|textCapSentences|textAutoCorrect"
+                    android:textSize="18dp" >
+                </EditText>
+
+                <Button
+                    android:id="@+id/buttonSubmitComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/submitcommentbutton"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Submit"
+                    android:textColor="@drawable/submitbottom_text_selector"
+                    android:textSize="17dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutCommentsScroll"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#f8f8f8"
+            android:fadingEdge="none" >
+
+            <ListView
+                android:id="@+id/listViewComments"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
