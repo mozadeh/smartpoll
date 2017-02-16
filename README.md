@@ -23,6 +23,8 @@ Smart Poll currently has an application on Google Play and an application on Fac
 
 - Pager Sliding Tab Strip ```https://github.com/astuetz/PagerSlidingTabStrip```
 
+- Google Image Search API ```https://developers.google.com/image-search/```
+
 
 ## Key Features
 
