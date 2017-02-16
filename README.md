@@ -1,6 +1,8 @@
 
 #Smart Poll
 
+![alt tag](https://raw.githubusercontent.com/mozadeh/smartpoll/master/new_logo.jpg)
+
 ## App store listing
 
 link to Google Play listing: ```https://play.google.com/store/apps/details?id=com.smartiky.smartpoll```
