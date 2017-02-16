@@ -39,7 +39,7 @@ Smart Poll currently has an application on Google Play and an application on Fac
 
 link to key classes used in app: ```https://github.com/mozadeh/smartpoll/tree/master/bin/classes/com/smartiky/smartpoll```
 
-## Class structure
+## File structure
 
 ```
 /
