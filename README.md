@@ -11,6 +11,19 @@ Smart Poll gives the power of polling to you. Smart Poll is a platform for creat
 
 Smart Poll currently has an application on Google Play and an application on Facebook. You can comment on polls and select your favorite polls and follow them over time. You can attach photos to your poll by taking a picture with you phone's camera, choosing a photo from your photo library or choosing an image from Google image search. Once other users comment or vote on your poll, you can receive notifications to see the responses and other activity on your poll.
 
+## Libraries / Tutorials / APIs used
+
+- Facebook Android SDK ```https://developers.facebook.com/docs/android/```
+
+- Google Analytics Android SDK ```https://developers.google.com/analytics/devguides/collection/android/v4/```
+
+- Android Pull to Refresh Loadmore listview ```https://github.com/incube8/android-pullToRefresh-loadMore```
+
+- Android Graphview ```http://www.android-graphview.org/```
+
+- Pager Sliding Tab Strip ```https://github.com/astuetz/PagerSlidingTabStrip```
+
+
 ## Key Features
 
 - Facebook API integration
@@ -236,205 +249,14 @@ link to key classes used in app: ```https://github.com/mozadeh/smartpoll/tree/ma
 │   │       ├── drawable
 │   │       │   ├── b0001.png
 │   │       │   ├── b0002.png
-│   │       │   ├── b0003.png
-│   │       │   ├── b0004.png
-│   │       │   ├── b0005.png
-│   │       │   ├── b0006.png
-│   │       │   ├── b0007.png
-│   │       │   ├── b0008.png
-│   │       │   ├── b0009.png
-│   │       │   ├── b0010.png
-│   │       │   ├── b0011.png
-│   │       │   ├── b0012.png
-│   │       │   ├── b0013.png
-│   │       │   ├── b0014.png
-│   │       │   ├── b0015.png
-│   │       │   ├── b0016.png
-│   │       │   ├── b0017.png
-│   │       │   ├── b0018.png
-│   │       │   ├── b0019.png
-│   │       │   ├── b0020.png
-│   │       │   ├── b0021.png
-│   │       │   ├── b0022.png
-│   │       │   ├── b0023.png
-│   │       │   ├── b0024.png
-│   │       │   ├── b0025.png
-│   │       │   ├── b0026.png
-│   │       │   ├── b0027.png
-│   │       │   ├── b0028.png
-│   │       │   ├── b0029.png
-│   │       │   ├── b0030.png
-│   │       │   ├── b0031.png
-│   │       │   ├── b0032.png
-│   │       │   ├── b0033.png
-│   │       │   ├── b0034.png
-│   │       │   ├── b0035.png
-│   │       │   ├── b0036.png
-│   │       │   ├── b0037.png
-│   │       │   ├── b0038.png
-│   │       │   ├── b0039.png
-│   │       │   ├── b0040.png
-│   │       │   ├── b0041.png
-│   │       │   ├── b0042.png
-│   │       │   ├── b0043.png
-│   │       │   ├── b0044.png
-│   │       │   ├── b0045.png
-│   │       │   ├── b0046.png
-│   │       │   ├── b0047.png
-│   │       │   ├── b0048.png
-│   │       │   ├── b0049.png
-│   │       │   ├── b0050.png
-│   │       │   ├── b0051.png
-│   │       │   ├── b0052.png
-│   │       │   ├── b0053.png
-│   │       │   ├── b0054.png
-│   │       │   ├── b0055.png
-│   │       │   ├── b0056.png
-│   │       │   ├── b0057.png
-│   │       │   ├── b0058.png
-│   │       │   ├── b0059.png
-│   │       │   ├── b0060.png
-│   │       │   ├── b0061.png
-│   │       │   ├── b0062.png
-│   │       │   ├── b0063.png
-│   │       │   ├── b0064.png
-│   │       │   ├── bottom.png
-│   │       │   ├── bottomleft.png
-│   │       │   ├── bottomleft1.png
-│   │       │   ├── bottomright.png
-│   │       │   ├── bottomright1.png
-│   │       │   ├── buttonexpandgradient1.png
-│   │       │   ├── buttongradient.png
-│   │       │   ├── buttongradient_selected.png
-│   │       │   ├── buttongradientnotselected.png
-│   │       │   ├── comment.png
-│   │       │   ├── commentb.png
-│   │       │   ├── facebook.png
-│   │       │   ├── frame1.png
-│   │       │   ├── frame10.png
-│   │       │   ├── frame2.png
-│   │       │   ├── frame2b.png
-│   │       │   ├── frame3.png
-│   │       │   ├── frame3b.png
-│   │       │   ├── frame4.png
-│   │       │   ├── frame4b.png
-│   │       │   ├── frame5.png
-│   │       │   ├── frame5b.png
-│   │       │   ├── frame6.png
-│   │       │   ├── frame6b.png
-│   │       │   ├── frame7.png
-│   │       │   ├── frame7b.png
-│   │       │   ├── frame8.png
-│   │       │   ├── frame8b.png
-│   │       │   ├── frame9.png
-│   │       │   ├── help.png
-│   │       │   ├── ic_menu_add.png
-│   │       │   ├── ic_menu_friendslist.png
-│   │       │   ├── ic_menu_info_details.png
-│   │       │   ├── ic_menu_invite.png
-│   │       │   ├── ic_menu_refresh.png
-│   │       │   ├── left.png
-│   │       │   ├── love.png
-│   │       │   ├── pixels2.png
-│   │       │   ├── pixelsb.png
-│   │       │   ├── pollbottom.png
-│   │       │   ├── polltop.png
-│   │       │   ├── powereby.png
-│   │       │   ├── profilepic.png
-│   │       │   ├── right.png
-│   │       │   ├── tbackground.png
-│   │       │   ├── top.png
+│   │       │   ├── ...
 │   │       │   ├── topleft.png
 │   │       │   └── topright.png
 │   │       ├── drawable-hdpi
 │   │       │   ├── add.png
 │   │       │   ├── addb.png
 │   │       │   ├── addbs.png
-│   │       │   ├── adviceb.png
-│   │       │   ├── allpollsb.png
-│   │       │   ├── bottomgradient.png
-│   │       │   ├── bottomgradientselected.png
-│   │       │   ├── businessb.png
-│   │       │   ├── businessbs.png
-│   │       │   ├── buttonexpandgradient.png
-│   │       │   ├── buttonexpandgradient1.png
-│   │       │   ├── buttongradient.png
-│   │       │   ├── buttongradient_selected.png
-│   │       │   ├── buttongradientnotenabled.png
-│   │       │   ├── buttongradientnotselected.png
-│   │       │   ├── comment.png
-│   │       │   ├── createb.png
-│   │       │   ├── createbs.png
-│   │       │   ├── dropdownb.png
-│   │       │   ├── expandbutton.png
-│   │       │   ├── expandbuttons.png
-│   │       │   ├── facebook.png
-│   │       │   ├── fasionb.png
-│   │       │   ├── fasionb1.png
-│   │       │   ├── fasionbs.png
-│   │       │   ├── favoriteb.png
-│   │       │   ├── fewer.png
-│   │       │   ├── following.png
-│   │       │   ├── foodb.png
-│   │       │   ├── foodbs.png
-│   │       │   ├── gradient1.png
-│   │       │   ├── gradient2.png
-│   │       │   ├── gradient3.png
-│   │       │   ├── gradient4.png
-│   │       │   ├── gradient5.png
-│   │       │   ├── ic_launcher.png
-│   │       │   ├── ic_stat_notificationlogo.png
-│   │       │   ├── image_loading.png
-│   │       │   ├── leaderboardgradient.png
-│   │       │   ├── localb.png
-│   │       │   ├── localbs.png
-│   │       │   ├── login.png
-│   │       │   ├── logo.png
-│   │       │   ├── love.png
-│   │       │   ├── loveb.png
-│   │       │   ├── more.png
-│   │       │   ├── mypollsb.png
-│   │       │   ├── mypollsb1.png
-│   │       │   ├── newpollbottomselected.png
-│   │       │   ├── newpollbutton.png
-│   │       │   ├── no_image_available.png
-│   │       │   ├── no_image_availableb.png
-│   │       │   ├── otherb.png
-│   │       │   ├── otherbs.png
-│   │       │   ├── politics.png
-│   │       │   ├── politicsb.png
-│   │       │   ├── politicsbs.png
-│   │       │   ├── pollbutton.png
-│   │       │   ├── popularb.png
-│   │       │   ├── profilepicsample.png
-│   │       │   ├── radioactive.png
-│   │       │   ├── radiohover.png
-│   │       │   ├── radionormal.png
-│   │       │   ├── recentb.png
-│   │       │   ├── recentbs.png
-│   │       │   ├── romanceb.png
-│   │       │   ├── romancebs.png
-│   │       │   ├── search.png
-│   │       │   ├── searchb.png
-│   │       │   ├── searchbs.png
-│   │       │   ├── selectedcheckbox.png
-│   │       │   ├── settings.png
-│   │       │   ├── settingsb.png
-│   │       │   ├── settingsbs.png
-│   │       │   ├── shadow.png
-│   │       │   ├── shadow1.png
-│   │       │   ├── sourceb.png
-│   │       │   ├── space.png
-│   │       │   ├── sports.png
-│   │       │   ├── sportsb.png
-│   │       │   ├── sportsbs.png
-│   │       │   ├── textfield1_selected.9.png
-│   │       │   ├── textfield_default.9.png
-│   │       │   ├── textfield_selected.9.png
-│   │       │   ├── topgradient.png
-│   │       │   ├── topgradientselected.png
-│   │       │   ├── topmenugradient.png
-│   │       │   ├── topmenugradientselected.png
+│   │       │   ├── ...
 │   │       │   ├── trendingb.png
 │   │       │   ├── trendingbs.png
 │   │       │   └── unselectedcheckbox.png
@@ -500,234 +322,14 @@ link to key classes used in app: ```https://github.com/mozadeh/smartpoll/tree/ma
 │   │   ├── anim_alphaexit.xml
 │   │   ├── anim_click.xml
 │   │   ├── b0001.png
-│   │   ├── b0002.png
-│   │   ├── b0003.png
-│   │   ├── b0004.png
-│   │   ├── b0005.png
-│   │   ├── b0006.png
-│   │   ├── b0007.png
-│   │   ├── b0008.png
-│   │   ├── b0009.png
-│   │   ├── b0010.png
-│   │   ├── b0011.png
-│   │   ├── b0012.png
-│   │   ├── b0013.png
-│   │   ├── b0014.png
-│   │   ├── b0015.png
-│   │   ├── b0016.png
-│   │   ├── b0017.png
-│   │   ├── b0018.png
-│   │   ├── b0019.png
-│   │   ├── b0020.png
-│   │   ├── b0021.png
-│   │   ├── b0022.png
-│   │   ├── b0023.png
-│   │   ├── b0024.png
-│   │   ├── b0025.png
-│   │   ├── b0026.png
-│   │   ├── b0027.png
-│   │   ├── b0028.png
-│   │   ├── b0029.png
-│   │   ├── b0030.png
-│   │   ├── b0031.png
-│   │   ├── b0032.png
-│   │   ├── b0033.png
-│   │   ├── b0034.png
-│   │   ├── b0035.png
-│   │   ├── b0036.png
-│   │   ├── b0037.png
-│   │   ├── b0038.png
-│   │   ├── b0039.png
-│   │   ├── b0040.png
-│   │   ├── b0041.png
-│   │   ├── b0042.png
-│   │   ├── b0043.png
-│   │   ├── b0044.png
-│   │   ├── b0045.png
-│   │   ├── b0046.png
-│   │   ├── b0047.png
-│   │   ├── b0048.png
-│   │   ├── b0049.png
-│   │   ├── b0050.png
-│   │   ├── b0051.png
-│   │   ├── b0052.png
-│   │   ├── b0053.png
-│   │   ├── b0054.png
-│   │   ├── b0055.png
-│   │   ├── b0056.png
-│   │   ├── b0057.png
-│   │   ├── b0058.png
-│   │   ├── b0059.png
-│   │   ├── b0060.png
-│   │   ├── b0061.png
-│   │   ├── b0062.png
-│   │   ├── b0063.png
-│   │   ├── b0064.png
-│   │   ├── bottom.png
-│   │   ├── bottom_bg_selector.xml
-│   │   ├── bottomleft.png
-│   │   ├── bottomleft1.png
-│   │   ├── bottomright.png
-│   │   ├── bottomright1.png
-│   │   ├── buttonexpandgradient1.png
-│   │   ├── buttongradient.png
-│   │   ├── buttongradient_selected.png
-│   │   ├── buttongradientnotselected.png
-│   │   ├── comment.png
-│   │   ├── commentb.png
-│   │   ├── customdrawablecheckbox.xml
-│   │   ├── edittext_modified_states.xml
-│   │   ├── facebook.png
-│   │   ├── favoritebutton.xml
-│   │   ├── frame1.png
-│   │   ├── frame10.png
-│   │   ├── frame2.png
-│   │   ├── frame2b.png
-│   │   ├── frame3.png
-│   │   ├── frame3b.png
-│   │   ├── frame4.png
-│   │   ├── frame4b.png
-│   │   ├── frame5.png
-│   │   ├── frame5b.png
-│   │   ├── frame6.png
-│   │   ├── frame6b.png
-│   │   ├── frame7.png
-│   │   ├── frame7b.png
-│   │   ├── frame8.png
-│   │   ├── frame8b.png
-│   │   ├── frame9.png
-│   │   ├── help.png
-│   │   ├── ic_menu_add.png
-│   │   ├── ic_menu_friendslist.png
-│   │   ├── ic_menu_info_details.png
-│   │   ├── ic_menu_invite.png
-│   │   ├── ic_menu_refresh.png
-│   │   ├── imagesourcebutton_text_selector.xml
-│   │   ├── left.png
-│   │   ├── love.png
-│   │   ├── newbutton_bg_selector.xml
-│   │   ├── newpollbottom_bg_selector.xml
-│   │   ├── newpollbottom_text_selector.xml
-│   │   ├── pixels2.png
-│   │   ├── pixelsb.png
-│   │   ├── pollbottom.png
-│   │   ├── polltop.png
-│   │   ├── powereby.png
-│   │   ├── profilepic.png
-│   │   ├── radio.xml
-│   │   ├── right.png
-│   │   ├── roundedgebutton.xml
-│   │   ├── roundedgebuttonselected.xml
-│   │   ├── roundedgebuttonselected1.xml
-│   │   ├── roundedgebuttonselected2.xml
-│   │   ├── roundedgebuttonselected3.xml
-│   │   ├── roundedgebuttonselected4.xml
-│   │   ├── roundedgebuttonselected5.xml
-│   │   ├── searchbutton_bg_selector.xml
-│   │   ├── selectedfavoritebutton.xml
-│   │   ├── selectedsharebutton.xml
-│   │   ├── settingsbutton_bg_selector.xml
-│   │   ├── spin_animation.xml
-│   │   ├── spin_animation_results.xml
-│   │   ├── spin_animation_small.xml
-│   │   ├── submitbottom_text_selector.xml
-│   │   ├── submitcommentbutton.xml
-│   │   ├── tab_bg_selector.xml
-│   │   ├── tab_text_selector.xml
-│   │   ├── tbackground.png
-│   │   ├── top.png
+│   │   ├── ...
 │   │   ├── topleft.png
 │   │   └── topright.png
 │   ├── drawable-hdpi
 │   │   ├── add.png
 │   │   ├── addb.png
 │   │   ├── addbs.png
-│   │   ├── adviceb.png
-│   │   ├── allpollsb.png
-│   │   ├── bottomgradient.png
-│   │   ├── bottomgradientselected.png
-│   │   ├── businessb.png
-│   │   ├── businessbs.png
-│   │   ├── buttonexpandgradient.png
-│   │   ├── buttonexpandgradient1.png
-│   │   ├── buttongradient.png
-│   │   ├── buttongradient_selected.png
-│   │   ├── buttongradientnotenabled.png
-│   │   ├── buttongradientnotselected.png
-│   │   ├── comment.png
-│   │   ├── createb.png
-│   │   ├── createbs.png
-│   │   ├── dropdownb.png
-│   │   ├── expandbutton.png
-│   │   ├── expandbuttons.png
-│   │   ├── facebook.png
-│   │   ├── fasionb.png
-│   │   ├── fasionb1.png
-│   │   ├── fasionbs.png
-│   │   ├── favoriteb.png
-│   │   ├── fewer.png
-│   │   ├── following.png
-│   │   ├── foodb.png
-│   │   ├── foodbs.png
-│   │   ├── gradient1.png
-│   │   ├── gradient2.png
-│   │   ├── gradient3.png
-│   │   ├── gradient4.png
-│   │   ├── gradient5.png
-│   │   ├── ic_launcher.png
-│   │   ├── ic_stat_notificationlogo.png
-│   │   ├── image_loading.png
-│   │   ├── leaderboardgradient.png
-│   │   ├── localb.png
-│   │   ├── localbs.png
-│   │   ├── login.png
-│   │   ├── logo.png
-│   │   ├── love.png
-│   │   ├── loveb.png
-│   │   ├── more.png
-│   │   ├── mypollsb.png
-│   │   ├── mypollsb1.png
-│   │   ├── newpollbottomselected.png
-│   │   ├── newpollbutton.png
-│   │   ├── no_image_available.png
-│   │   ├── no_image_availableb.png
-│   │   ├── otherb.png
-│   │   ├── otherbs.png
-│   │   ├── pagertitlestrip.xml
-│   │   ├── politics.png
-│   │   ├── politicsb.png
-│   │   ├── politicsbs.png
-│   │   ├── pollbutton.png
-│   │   ├── popularb.png
-│   │   ├── profilepicsample.png
-│   │   ├── radioactive.png
-│   │   ├── radiohover.png
-│   │   ├── radionormal.png
-│   │   ├── recentb.png
-│   │   ├── recentbs.png
-│   │   ├── romanceb.png
-│   │   ├── romancebs.png
-│   │   ├── search.png
-│   │   ├── searchb.png
-│   │   ├── searchbs.png
-│   │   ├── selectedcheckbox.png
-│   │   ├── settings.png
-│   │   ├── settingsb.png
-│   │   ├── settingsbs.png
-│   │   ├── shadow.png
-│   │   ├── shadow1.png
-│   │   ├── sourceb.png
-│   │   ├── space.png
-│   │   ├── sports.png
-│   │   ├── sportsb.png
-│   │   ├── sportsbs.png
-│   │   ├── textfield1_selected.9.png
-│   │   ├── textfield_default.9.png
-│   │   ├── textfield_selected.9.png
-│   │   ├── topgradient.png
-│   │   ├── topgradientselected.png
-│   │   ├── topmenugradient.png
-│   │   ├── topmenugradientselected.png
+│   │   ├──...
 │   │   ├── trendingb.png
 │   │   ├── trendingbs.png
 │   │   └── unselectedcheckbox.png
