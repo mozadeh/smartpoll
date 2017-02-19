@@ -5,7 +5,7 @@
 
 ## App store listing
 
-link to Google Play listing: ```https://play.google.com/store/apps/details?id=com.smartiky.smartpoll```
+link to Google Play listing: [https://play.google.com/store/apps/details?id=com.smartiky.smartpoll](https://play.google.com/store/apps/details?id=com.smartiky.smartpoll)
 
 ## Description
 
