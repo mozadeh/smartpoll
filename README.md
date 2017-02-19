@@ -15,17 +15,17 @@ Smart Poll currently has an application on Google Play and an application on Fac
 
 ## Libraries / Tutorials / APIs used
 
-- Facebook Android SDK ```https://developers.facebook.com/docs/android/```
+- Facebook Android SDK [https://developers.facebook.com/docs/android/](https://developers.facebook.com/docs/android/)
 
-- Google Analytics Android SDK ```https://developers.google.com/analytics/devguides/collection/android/v4/```
+- Google Analytics Android SDK [https://developers.google.com/analytics/devguides/collection/android/v4/](https://developers.google.com/analytics/devguides/collection/android/v4/)
 
-- Android Pull to Refresh Loadmore listview ```https://github.com/incube8/android-pullToRefresh-loadMore```
+- Android Pull to Refresh Loadmore listview [https://github.com/incube8/android-pullToRefresh-loadMore](https://github.com/incube8/android-pullToRefresh-loadMore)
 
-- Android Graphview ```http://www.android-graphview.org/```
+- Android Graphview [http://www.android-graphview.org/](http://www.android-graphview.org/)
 
-- Pager Sliding Tab Strip ```https://github.com/astuetz/PagerSlidingTabStrip```
+- Pager Sliding Tab Strip [https://github.com/astuetz/PagerSlidingTabStrip](https://github.com/astuetz/PagerSlidingTabStrip)
 
-- Google Image Search API ```https://developers.google.com/image-search/```
+- Google Image Search API [https://developers.google.com/image-search/](https://developers.google.com/image-search/)
 
 
 ## Key Features
@@ -39,7 +39,7 @@ Smart Poll currently has an application on Google Play and an application on Fac
 
 ## Key classes
 
-link to key classes used in app: ```https://github.com/mozadeh/smartpoll/tree/master/bin/classes/com/smartiky/smartpoll```
+link to key classes used in app: [https://github.com/mozadeh/smartpoll/tree/master/bin/classes/com/smartiky/smartpoll](https://github.com/mozadeh/smartpoll/tree/master/bin/classes/com/smartiky/smartpoll)
 
 ## File structure
 
