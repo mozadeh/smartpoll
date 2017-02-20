@@ -7,6 +7,12 @@
 
 link to Google Play listing: [https://play.google.com/store/apps/details?id=com.smartiky.smartpoll](https://play.google.com/store/apps/details?id=com.smartiky.smartpoll)
 
+## Team
+
+- Mohammad Ghasemzadeh
+
+- Hossein Kaffash Bokharei
+
 ## Description
 
 Smart Poll gives the power of polling to you. Smart Poll is a platform for creating and answering questions. You can share polls publicly, to get opinions from all other Smart Poll users. Alternatively, you can share polls privately (only with select Facebook friends) or on your Facebook timeline.
