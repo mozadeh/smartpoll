@@ -58,11 +58,7 @@ link to key classes used in app: [https://github.com/mozadeh/smartpoll/tree/mast
 ├── Readme
 ├── assets
 │   ├── Roboto-Bold.ttf
-│   ├── Roboto-BoldCondensed.ttf
-│   ├── Roboto-BoldCondensedItalic.ttf
-│   ├── Roboto-Condensed.ttf
-│   ├── Roboto-CondensedItalic.ttf
-│   ├── Roboto-Medium.ttf
+│   ├── ...
 │   └── Roboto-Regular.ttf
 ├── bin
 │   ├── AndroidManifest.xml
