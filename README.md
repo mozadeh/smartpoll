@@ -40,6 +40,8 @@ Smart Poll currently has an application on Google Play and an application on Fac
 
 - See trends for votes
 
+- Leaderboard for top poll & voters
+
 - Get push notification when polls receives response
 
 
