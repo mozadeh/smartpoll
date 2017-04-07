@@ -117,7 +117,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartpoll/tree/mast
 │   │   │           ├── FacebookActivity$3.class
 │   │   │           ├── FacebookActivity$4.class
 │   │   │           ├── FacebookActivity$5.class
-│   │   │           ├── FacebookActivity$6.class
 │   │   │           ├── FacebookActivity$myTrackedActivity.class
 │   │   │           ├── FacebookActivity.class
 │   │   │           ├── GCMBroadcastReceiver.class
