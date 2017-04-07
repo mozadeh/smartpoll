@@ -136,8 +136,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartpoll/tree/mast
 │   │   │           ├── NewPollActivity$5.class
 │   │   │           ├── NewPollActivity$6.class
 │   │   │           ├── NewPollActivity$7.class
-│   │   │           ├── NewPollActivity$8.class
-│   │   │           ├── NewPollActivity$9.class
 │   │   │           ├── NewPollActivity.class
 │   │   │           ├── PollAnalyticsActivity$1.class
 │   │   │           ├── PollAnalyticsActivity.class
