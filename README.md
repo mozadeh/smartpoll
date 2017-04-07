@@ -123,7 +123,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartpoll/tree/mast
 │   │   │           ├── InternetSearchActivity$1.class
 │   │   │           ├── InternetSearchActivity$2.class
 │   │   │           ├── InternetSearchActivity$3.class
-│   │   │           ├── InternetSearchActivity$4.class
 │   │   │           ├── InternetSearchActivity.class
 │   │   │           ├── LoginActivity$1.class
 │   │   │           ├── LoginActivity.class
