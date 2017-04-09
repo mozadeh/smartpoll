@@ -202,8 +202,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartpoll/tree/mast
 │   │   │           ├── SmartPollActivity$6$1.class
 │   │   │           ├── SmartPollActivity$6.class
 │   │   │           ├── SmartPollActivity$7.class
-│   │   │           ├── SmartPollActivity$8.class
-│   │   │           ├── SmartPollActivity$9.class
 │   │   │           ├── SmartPollActivity.class
 │   │   │           ├── UserListAdapter$ViewHolder.class
 │   │   │           ├── UserListAdapter.class
