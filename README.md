@@ -259,8 +259,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartpoll/tree/mast
 │   │       ├── drawable-hdpi
 │   │       │   ├── add.png
 │   │       │   ├── ...
-│   │       │   ├── trendingb.png
-│   │       │   ├── trendingbs.png
 │   │       │   └── unselectedcheckbox.png
 │   │       ├── drawable-hdpi-v11
 │   │       │   └── ic_stat_notificationlogo.png
