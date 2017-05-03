@@ -45,7 +45,7 @@ Smart Poll currently has an application on Google Play and an application on Fac
 
 ## Key classes
 
-link to key classes used in app: [https://github.com/mozadeh/smartpoll/tree/master/bin/classes/com/smartiky/smartpoll](https://github.com/mozadeh/smartpoll/tree/master/bin/classes/com/smartiky/smartpoll)
+link to key classes used in app: [https://github.com/mozadeh/smartpoll/tree/master/src/com/smartiky/smartpoll](https://github.com/mozadeh/smartpoll/tree/master/src/com/smartiky/smartpoll)
 
 ## File structure
 
