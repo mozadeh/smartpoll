@@ -1,5 +1,5 @@
 
-#Smart Poll
+## Smart Poll
 
 ![alt tag](https://raw.githubusercontent.com/mozadeh/smartpoll/master/new_logo.jpg)
 
