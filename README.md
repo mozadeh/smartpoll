@@ -150,8 +150,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartpoll/tree/mast
 │   │   │           ├── PollsFragment$3$1.class
 │   │   │           ├── PollsFragment$3.class
 │   │   │           ├── PollsFragment$4.class
-│   │   │           ├── PollsFragment$5.class
-│   │   │           ├── PollsFragment$6.class
 │   │   │           ├── PollsFragment.class
 │   │   │           ├── ProfileActivity$1.class
 │   │   │           ├── ProfileActivity$2$1.class
