@@ -142,8 +142,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartpoll/tree/mast
 │   │   │           ├── PollsActivity$SectionsPagerAdapter.class
 │   │   │           ├── PollsActivity.class
 │   │   │           ├── PollsFragment$1.class
-│   │   │           ├── PollsFragment$2.class
-│   │   │           ├── PollsFragment$3$1.class
 │   │   │           ├── PollsFragment$3.class
 │   │   │           ├── PollsFragment$4.class
 │   │   │           ├── PollsFragment.class
